@@ -18,4 +18,4 @@ EXPOSE 33333/tcp
 VOLUME /xmrig-proxy
 WORKDIR /xmrig-proxy
 
-CMD /usr/bin/xmrig-proxy
+CMD /usr/bin/xmrig-proxy -c /xmrig-proxy/config.json
